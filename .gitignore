@@ -1,0 +1,55 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+.vs/
+obj/
+bin/
+*.zip
+*.vspscc
+*.vssscc 
+*.Source/*.zip
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+#Nuget packages folder
+packages/
+
+/CommonConsole/CommonConsole.xml
+/Common/Common.xml
+/CommonConsole/CommonConsole.xml
+/Galaktika.ESB/Galaktika.ESB.Adapter/Galaktika.ESB.Adapter.xml
+/Galaktika.ESB/Galaktika.ESB.CodeGenerator/Galaktika.ESB.CodeGenerator.xml
+/Galaktika.ESB.Console/Galaktika.ESB.Module.Win/Galaktika.ESB.Module.Win.xml
+/Galaktika.ESB.Console/Galaktika.ESB.Module/Galaktika.ESB.Module.xml
+/Galaktika.ESB.Console/Galaktika.ESB.FileSystemData.Module/Galaktika.ESB.FileSystemData.Module.xml
+/!ProductInfo/!ProductInfo.exe
+/!ProductInfo/!ProductInfo.exe.config
+/!ProductInfo/!ProductInfo.xml
+/!ProductInfo/!ProductVersionInfo.Define
+/Galaktika.ESB/Galaktika.ESB.Configuration/Galaktika.ESB.Configuration.xml
+/Galaktika.ESB/Galaktika.ESB.Core/Galaktika.ESB.Core.xml
+/Galaktika.ESB.Console/Galaktika.ESB.Win/Galaktika.ESB.Win.xml
