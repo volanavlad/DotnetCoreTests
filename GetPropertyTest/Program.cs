@@ -12,6 +12,8 @@ namespace GetPropertyTest
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Press <Enter> or attach debugger.");
+            Console.ReadLine();
             var result = typeof(Program).GetProperty(nameof(Свойство_С_Киррилицей),
                 BindingFlags.IgnoreCase | BindingFlags.Instance | BindingFlags.Public);
             Console.WriteLine(
