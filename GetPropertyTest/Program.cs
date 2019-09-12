@@ -28,7 +28,7 @@ namespace GetPropertyTest
             var expr = Expression.New(typeof(Program).GetConstructor(new Type[0]));
             var exprProp = Expression.Property(expr, nameof(Свойство_С_Киррилицей));
 
-            Console.WriteLine("Property expression was sucsessfully created.");
+            Console.WriteLine("Property expression was successfully created.");
         }
     }
 }
